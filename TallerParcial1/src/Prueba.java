@@ -62,7 +62,7 @@ public class Prueba {
         			eq=new Equipo(ma,mo,fa);
         			d=leerEntero("Dia de recepción: ");
         			m=leerEntero("Mes de recepción: ");
-        			a=leerEntero("A�o de recepci�n: ");
+        			a=leerEntero("Año de recepción: ");
         			re=new Fecha(d,m,a);
         			c=new Cliente(nom,eq,re);
         			System.out.println(e.recibirEquipo(c));
@@ -76,9 +76,9 @@ public class Prueba {
         			c1=e.equipoAReparar();
         			System.out.println(c1.toString());
         			mon=leerFloat("Ingrese costo de la reparaci�n: ");
-        			do{	d1=leerEntero("Dia de reparaci�n: ");
-        				m1=leerEntero("Mes de reparaci�n: ");
-        				a1=leerEntero("A�o de reparaci�n: ");
+        			do{	d1=leerEntero("Día de reparación: ");
+        				m1=leerEntero("Mes de reparación: ");
+        				a1=leerEntero("Año de reparación: ");
         				en=new Fecha(d1,m1,a1);
         				dif=en.diferenciaDias(c1.getRecep());
         			}while (dif<3);
@@ -101,7 +101,7 @@ public class Prueba {
         			System.out.println("Good Bye!!");
         			break;
         		default:
-        			System.out.println("Opcion Invalida");
+        			System.out.println("Opción Inválida");
         			break;	
         	}
         }while(opc!=7);
