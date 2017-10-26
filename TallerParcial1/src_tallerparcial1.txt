@@ -1,0 +1,5 @@
+"M:\\Omar Martinez 20341375\\TallerParcial1\\src\\Cliente.java"
+"M:\\Omar Martinez 20341375\\TallerParcial1\\src\\Empresa.java"
+"M:\\Omar Martinez 20341375\\TallerParcial1\\src\\Equipo.java"
+"M:\\Omar Martinez 20341375\\TallerParcial1\\src\\Fecha.java"
+"M:\\Omar Martinez 20341375\\TallerParcial1\\src\\Prueba.java"

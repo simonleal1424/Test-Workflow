@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>TallerParcial1</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK version 1.8.0_40</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>Prueba</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\Cliente.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Empresa.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Equipo.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Fecha.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Prueba.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>
